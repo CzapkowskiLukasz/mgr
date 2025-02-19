@@ -8,9 +8,9 @@
 import Foundation
 
 class ListCellViewModel: ObservableObject {
-    let cell: ListCellModel
+    let game: Game
     
-    init(cell: ListCellModel) {
-        self.cell = cell
+    init(game: Game) {
+        self.game = game
     }
 }
